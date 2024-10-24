@@ -12,4 +12,9 @@ jobs:
                 run: echo "hello world"
               - name: "segunda ação"
                 run: echo "você criou sua primeira pipe"
-              
+    segundo-job:
+                  name: "Instalação do Ambiente NodeJs"
+                  runs-on: ubuntu-latest
+                  steps:
+                    - name: "verificação da verão do nodeJS atual"
+                      run: node --version
