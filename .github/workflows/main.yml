@@ -11,7 +11,5 @@ jobs:
             - name: "minha primeira ação"
               run: echo "hello world"
             - name: "segunda ação"
-              run:
-              echo: "você criou sua primeira pipe"
-              echo: "parabens"
+              run: echo "você criou sua primeira pipe"
               
