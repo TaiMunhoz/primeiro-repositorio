@@ -1,4 +1,4 @@
-Name: primeira-pipeline
+name: primeira-pipeline
 on:
   push: 
     branches: ["main"]
@@ -8,8 +8,8 @@ jobs:
         name: "meu primeiro job"
         runs-on: ubuntu-latest
         steps:
-            - name: "minha primeira ação"
-              run: echo "hello world"
-            - name: "segunda ação"
-              run: echo "você criou sua primeira pipe"
+              - name: "minha primeira ação"
+                run: echo "hello world"
+              - name: "segunda ação"
+                run: echo "você criou sua primeira pipe"
               
