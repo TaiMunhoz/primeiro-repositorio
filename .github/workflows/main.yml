@@ -3,16 +3,15 @@ on:
   push: 
     branches: ["main"]
   workflow_dispatch:
-
 jobs: 
     primeiro-job:
         name: "meu primeiro job"
         runs-on: ubuntu-latest
         steps:
             - name: "minha primeira ação"
-            run: echo "hello world"
+              run: echo "hello world"
             - name: "segunda ação"
-            run:
+              run:
               echo: "você criou sua primeira pipe"
               echo: "parabens"
               
